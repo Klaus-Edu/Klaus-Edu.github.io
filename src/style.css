@@ -97,9 +97,9 @@
 .cardProj{
     display: flex;
     flex-direction: row;
-    width: 33%;
+    width: 47%;
     margin: 1em;
-    height: 16em;
+    height: 17em;
     border: 1px solid #A95AD6;
     border-radius: 10px;
     transition: all 0.3s ease-out;
@@ -171,7 +171,7 @@
     width: 60%;
     margin: 1em;
     padding: 1em;
-    height: 12em;
+    height: 13em;
     border: 1px solid #483bcc;
     border-radius: 10px;
     position: relative;
@@ -275,7 +275,7 @@
 }
 
 
-@media screen and (max-width: 1465px) and (min-width: 768px){
+@media screen and (max-width: 1572px) and (min-width: 1100px){
     .cardProj, .knowsCard{
         width: 90%;
     }
@@ -289,6 +289,15 @@
     }
 }
 
+@media screen and (max-width: 1099px) and (min-width:768px) {
+    .cardProj, .knowsCard{
+        width: 90%;
+    }
+    #about, #projects, #knows, #footer, #footerContainer{
+        padding: 3rem 3rem !important;
+    }
+}
+
 @media screen and (min-width: 768px){
     #intro{
         left: 12%;
@@ -296,7 +305,7 @@
     }
 
     #about, #projects, #knows{
-        padding: 3rem 15.8rem;
+        padding: 3rem 14rem;
     }
 
     #footer{
